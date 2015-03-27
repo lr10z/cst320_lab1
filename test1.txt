@@ -1,0 +1,36 @@
+#define LARGEST 100
+#define LARGEST
+#define 10 // this should produce an error
+#whatever
+
+void main()
+
+{  int x, y, 4b;
+
+x = 10;
+
+y = LARGEST; 
+
+#ifdef MYSYMBOL
+
+cout << "X=" << x;
+
+#endif
+
+#if TEST == 1
+
+cout << "1" << endl;
+
+#elif TEST == 2
+
+cout << "2" << endl;
+
+#else
+
+cout << "Blah" << endl;
+
+#endif
+
+cout << "The end" << endl;
+}
+
